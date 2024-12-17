@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GiftFinder MVP</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Finde das perfekte Geschenk</h1>
+    </header>
+    <main>
+        <section>
+            <h2>Wer bekommt das Geschenk?</h2>
+            <input type="text" id="recipient" placeholder="z.B. Bruder, Freundin, Chef">
+            <h2>Budget (Euro):</h2>
+            <input type="number" id="budget" placeholder="z.B. 50">
+            <button onclick="findGift()">Vorschlag anzeigen</button>
+        </section>
+        <section id="suggestion">
+            <!-- Geschenkideen werden hier angezeigt -->
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
